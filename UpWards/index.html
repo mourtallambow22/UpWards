@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+   <header>
+
+    <div class="cart-container">
+        </div>
+
+        <div class="mini-cart" id="miniCart">
+            </div>
+
+    <!-- MÉTADONNÉES -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpWards | Marque de vêtements</title>
+
+    <!-- LIEN CSS -->
+    <link rel="stylesheet" href="style.css">
+
+<link rel="shortcut icon" href="./logo.png">
+
+</head>
+
+<body>
+
+<script src="panier.js"></script>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">UpWards</div>
+
+        <nav class="nav">
+            <a href="#home">Accueil</a>
+            <a href="#products">Produits</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- SECTION HERO -->
+    <section id="home" class="HERO">
+
+    <center> <h1>Élève ton style</h1></center>
+        <br>
+        <h4>UpWards</h4> est une marque de vêtements qui représente la progression, la discipline et la vision.
+        <br>
+<img src="home.png" alt="200">
+    </section>
+     <!-- SECTION PRODUITS -->
+    <section id="products" class="products">
+        <section class="gallery">
+    <h2>Galerie UpWards</h2>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="tshirt3.png" alt="T-shirt UpWards">
+            <div class="overlay">T-shirt UpWards</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="tshirt2.png" alt="T-shirt UpWards">
+            <div class="overlay">T-shirt UpWards</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="hoodie2.png" alt="Hoodie UpWards">
+            <div class="overlay">Hoodie UpWards</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/cap1.jpg" alt="Casquette UpWards">
+            <div class="overlay">Casquette UpWards</div>
+        </div>
+    </div>
+</section>
+
+        <h2>Nos produits</h2> 
+
+        <div class="product-grid">
+            <h3>T-shirt UpWards
+                    <img src="tshirt.png" height="400"
+                    
+                    alt="T-shirtUpWards">
+                </h3>
+<div class="product-options">
+
+    <!-- COULEURS -->
+    <div class="colors">
+        <p>Couleur</p>
+        <span class="color active" style="background:#000" data-color="Noir"></span>
+        <span class="color" style="background:#fff" data-color="Blanc"></span>
+        <span class="color" style="background:#555" data-color="Gris"></span>
+        <span class="color" style="background:#1606f8" data-color="Blu"></span>
+        <span class="color" style="background:#a11e1e" data-color="Marron"></span>
+    </div>
+<h3>Tous Les Tailles Sont Disponibles.</h3>
+    <!-- TAILLES -->
+    <div class="sizes">
+        <p>Taille</p>
+        <button class="size active" data-size="S">S</button>
+        <button class="size" data-size="M">M</button>
+        <button class="size" data-size="L">L</button>
+        <button class="size" data-size="XL">XL</button>
+         <button class="size" data-size="XXL">XXL</button>
+    </div>
+<div class="product-card">
+
+<button class="buy-btn">Pour>
+<span>25€</span>
+ </div>
+    
+
+<img src="hoodie.png">
+            <h3>Hoodie UpWards</h3>
+            <p>Confort & mindset</p>
+
+            <br>
+            <button class="buy-btn">Pour>
+<span>45€</span>
+ <br>
+<img src="dos.png" height="500">
+</button>
+
+
+
+<div class="product-options">
+
+    <!-- COULEURS -->
+    <div class="colors">
+        <p>Couleur</p>
+        <span class="color active" style="background:#000" data-color="Noir"></span>
+        <span class="color" style="background:#fff" data-color="Blanc"></span>
+        <span class="color" style="background:#555" data-color="Gris"></span>
+         <span class="color" style="background:#1606f8" data-color="Blu"></span>
+         <span class="color" style="background:#a11e1e" data-color="Marron"></span>
+    </div>
+<h3>Tous Les Tailles Sont Disponibles.</h3>
+    <!-- TAILLES -->
+    <div class="sizes">
+        <p>Taille</p>
+        <button class="size active" data-size="S">S</button>
+        <button class="size" data-size="M">M</button>
+        <button class="size" data-size="L">L</button>
+        <button class="size" data-size="XL">XL</button>
+        <button class="size" data-size="XXL">XXL</button>
+    </div>
+            
+    </section>
+     <!-- SECTION À PROPOS -->
+    <section id="about" class="about">
+        <h2>À propos de UpWards</h2>
+        <p>
+            UpWards est née pour ceux qui veulent avancer,
+            dépasser leurs limites et construire quelque chose de grand.
+            Chaque pièce représente une mentalité.
+        </p>
+   </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <p>© 2025 UpWards — Tous droits réservés</p>
+        <p>+393520151744</p>
+        <p>instagram UpWards.it</p>
+    </footer>
+    <div id="paypal-button-container"></div>
+    <!-- BOUTON PAYPAL -->
+<div id="paypal-button-container"></div>
+
+<!-- SCRIPT PAYPAL (DOIT ÊTRE AVANT LE SCRIPT JS) -->
+<script src="https://www.paypal.com/sdk/js?client-id=SB&currency=EUR"></script>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
